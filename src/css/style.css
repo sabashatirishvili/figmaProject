@@ -1,0 +1,88 @@
+/* inter-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/src/fonts/Inter-Regular.woff2) format('woff2');
+}
+
+
+
+
+.page {
+	position: absolute;
+width: 1440px;
+height: 1024px;
+left: 0px;
+top: 0px;
+
+background: #F8D9D9;
+}
+
+.bigText {
+	position: absolute;
+width: 749.08px;
+height: 277.67px;
+left: 645.99px;
+top: 190.6px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 85.5869px;
+line-height: 104px;
+text-align: center;
+}
+.line {
+	position: absolute;
+width: 1339.41px;
+height: 2.13967px;
+left: 44.93px;
+top: 135.87px;
+
+background: black;
+transform: rotate(-0.38deg);
+}
+
+.img1 { 
+	position: absolute;
+width: 579.64px;
+height: 477.69px;
+left: 66px;
+top: 274px;
+}
+.img2 {
+	position: absolute;
+width: 619.77px;
+height: 496.51px;
+left: 711px;
+top: 462px;
+}
+
+.menu {
+	display: flex;
+	gap: 27.82px;
+	font-family: "Inter";
+	font-size: 42.7935px;
+	justify-content: center;
+	float: right;
+	padding-right: 17px;
+	padding-top: 32px;
+	color: #D05252;
+}
+.logo {
+	display: flex;
+	width: 111.26px;
+	height: 102.7px;
+	background-color: #FAA3A3;
+	float: left;
+	border-radius: 50%;
+	margin: 10.7px 44.93px 13.16px 44.93px;
+}
+.logoText {
+	font-family: "Inter";
+	font-size: 77.03px;
+	text-align: center;
+	margin: auto;
+}
